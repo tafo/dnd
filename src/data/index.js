@@ -1,28 +1,28 @@
 const initialData = {
   taskList: [
     {
-      id: 1,
+      id: "1",
       icon: "⭕️",
       status: "open",
       title: "Human Interest Form",
       content: "Fill out human interest distribution form",
     },
     {
-      id: 2,
+      id: "2",
       icon: "⭕️",
       status: "open",
       title: "Purchase present",
       content: "Get an anniversary gift",
     },
     {
-      id: 3,
+      id: "3",
       icon: "⭕️",
       status: "open",
       title: "Invest in investments",
       content: "Call the bank to talk about investments",
     },
     {
-      id: 4,
+      id: "4",
       icon: "⭕️",
       status: "open",
       title: "Daily reading",
@@ -57,7 +57,7 @@ const initialData = {
     {
       id: "column-1",
       title: "To Do",
-      taskIdList: [1, 2, 3, 4],
+      taskIdList: ["1", "2", "3", "4"],
     },
   ],
 
