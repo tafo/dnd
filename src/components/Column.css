@@ -2,6 +2,9 @@
   margin: 8px;
   border: 1px solid lightgray;
   border-radius: 2px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .column--title {
@@ -10,4 +13,12 @@
 
 .column--task-list {
   padding: 8px;
+  background-color: white;
+  transition: background-color 0.2s ease;
+  flex-grow: 1;
+  min-height: 100px;
+}
+
+.column--task-list.dragging-over {
+  background-color: skyblue;
 }

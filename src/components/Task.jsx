@@ -7,11 +7,12 @@ const Task = (props) => {
     <Draggable draggableId={props.task.id} index={props.index}>
       {(provided, snapshot) => (
         <div
-          className={snapshot.isDragging ? "task--container dragging" : "task--container"}
+          className={
+            snapshot.isDragging ? "task--container dragging" : "task--container"
+          }
           {...provided.draggableProps}
           {...provided.dragHandleProps}
           ref={provided.innerRef}
-          isDragging={snapshot.isDragging}
         >
           {props.task.content}
         </div>
