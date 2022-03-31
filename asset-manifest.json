@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tafo.github.io/dnd/static/css/main.37bf8dde.css",
-    "main.js": "/tafo.github.io/dnd/static/js/main.3d4e93d3.js",
-    "index.html": "/tafo.github.io/dnd/index.html",
-    "main.37bf8dde.css.map": "/tafo.github.io/dnd/static/css/main.37bf8dde.css.map",
-    "main.3d4e93d3.js.map": "/tafo.github.io/dnd/static/js/main.3d4e93d3.js.map"
+    "main.css": "/dnd/static/css/main.37bf8dde.css",
+    "main.js": "/dnd/static/js/main.3d4e93d3.js",
+    "index.html": "/dnd/index.html",
+    "main.37bf8dde.css.map": "/dnd/static/css/main.37bf8dde.css.map",
+    "main.3d4e93d3.js.map": "/dnd/static/js/main.3d4e93d3.js.map"
   },
   "entrypoints": [
     "static/css/main.37bf8dde.css",
