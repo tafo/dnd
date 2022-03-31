@@ -1,7 +1,7 @@
 {
-  "name": "kanban",
+  "name": "dnd",
   "version": "0.1.0",
-  "homepage": "tafo.github.io/dnd",
+  "homepage": "https://tafo.github.io/dnd",
   "private": true,
   "dependencies": {
     "react": "^17.0.0",
